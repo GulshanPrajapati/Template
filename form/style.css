@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    
+}
+.container{
+    background-image: linear-gradient(to left, rgb(55, 197, 207) , rgb(20, 104, 231));
+}
+
+.main-postion {
+    border-radius: 5px;
+    padding: 4rem;
+    text-align: center;
+    
+  }
+
+.contact-style{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(20, 104, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+}
+
+input[type=text]{
+  width: 50%;
+  padding: 16px;
+  border: 1px solid rgb(55, 197, 207);
+  border-radius: 25px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(62, 146, 202);
+}
+
+input[type = tel]{
+    width: 50%;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid rgb(55, 197, 207);
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+  font-size: 18px;
+  color: rgb(62, 146, 202);
+  font-weight: bold;
+}
+
+input[type=submit] {
+    background-color: #207be4fa;
+    color: white;
+    padding: 16px 200px;
+    margin-top: 2rem;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+ 
+  }
+  
+  input[type=submit]:hover {
+    background-color: #32dbbfe1;
+  }
+  .btn-container{
+      text-align: center;
+  }
